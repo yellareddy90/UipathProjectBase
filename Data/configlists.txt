@@ -1,0 +1,11 @@
+signature  = system.web.security.formauthentication.hashpasswordforstoringInConfigfile(string.format("{0}{1}{2})","",datetime.now.tostring("yyyy-MM-dd"), secretkey), "MD5")
+
+
+(From row In io_translationallookupsource.Descendants("TranslationLookup").Where(Function(x) String.Compare(x.Element("Category").value.trim, in_category.trim,True)=0
+ AndAlso String.Compare(x.Element("SubCategory").value.trim, True) = 0 AndAlso String.Compare(x.Element("LookUpText").value.trim, in_lookuptext.trim, True)=0) 
+
+
+
+
+
+Select(row.Element("LookupValue").value)).FirstOrDefault

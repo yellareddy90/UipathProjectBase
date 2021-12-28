@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+
+<InputSheetvalidationRules>
+<Rule id="Col1" ColumnHeader="ClaimReference" validationType="Mandatory" Category="Primary" datatype="String" datavalidationRegex=""/>
+</InputSheetvalidationRules>
