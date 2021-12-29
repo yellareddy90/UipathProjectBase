@@ -9,8 +9,10 @@
 		  <LookUp GroupName="ProcessSteps" Code="1001" Value="CommonSteps" Desc="ClaimNUmber"/>
 		  <LookUp GroupName="ProcessSteps" Code="1002" Value="identifying Travel process from queue" Desc="ClaimNUmber"/>
 		  <LookUp GroupName="ProcessSteps" Code="1003" Value="CommonSteps" Desc="Process Completed"/>
-		 
-		 
+		   <!---Hard Stop Logical Steps------>
+		   <LookUp GroupName="HardStops" Code="1000" Value="Processsteps.1001" Desc="Process Completed"/>
+		 <!---Success outcome codes------>
+		 <LookUp GroupName="Outcomecodes" Code="SU00" Value="Submitted payment" Desc=""/>
 		 
 		 
 </LookUpDetails
